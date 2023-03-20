@@ -1,0 +1,17 @@
+# Edit this file to edit the theme of Streamlit page
+# Visit this page to learn more about themes in Streamlit: https://blog.streamlit.io/introducing-theming/
+
+[theme]
+# Accent color for interactive elements like st.radio, button borders etc.
+primaryColor="#757083" 
+
+# This is the background color for the main body of your app.
+backgroundColor="#474056" 
+
+# Used as the background for st.sidebar and for several widgets.
+secondaryBackgroundColor="#474056" 
+
+# Color for text in app.
+textColor="#B9C6AE" 
+
+font="sans serif"

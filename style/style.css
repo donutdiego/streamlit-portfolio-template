@@ -1,0 +1,43 @@
+
+input[type=message], input[type=email], input[type=text], textarea {
+  font-weight: bold; /* text that is typed will be bold */
+  color: #B9C6AE; /* color of text that is typed */
+  background-color: #474056;
+  width: 100%; /* full width */
+  padding: 12px; /* padding */ 
+  border: 1px solid #B9C6AE; /* border color */
+  border-radius: 4px; /* rounded borders */
+  box-sizing: border-box; /* make sure that padding and width stays in place */
+  margin-top: 6px; /* add a top margin */
+  margin-bottom: 16px; /* bottom margin */
+  resize: vertical /* allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* change color of placeholder text  */
+input[type="message"]::placeholder,
+input[type="email"]::placeholder,
+input[type="text"]::placeholder,
+textarea::placeholder {
+  color: #B9C6AE;
+}
+  
+
+
+button[type=submit] {
+  background-color: #757083; /* submit button background color */
+  color: white; /* text color */
+  padding: 12px 20px; /* padding */
+  border: none; /* border */
+  border-radius: 4px; /* rounded borders */
+  cursor: pointer; /* cursor type */
+}
+
+button[type=submit]:hover {
+  background-color: #B9C6AE; /* change button background color when user hovers over */
+}
+  
+  
+/* use to hide streamlit branding */
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;} 
+header {visibility: hidden;}
