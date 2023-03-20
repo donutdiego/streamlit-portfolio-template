@@ -12,7 +12,7 @@ def local_css(file_name): # function to parse local CSS
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-#local_css("") # path to CSS file
+local_css("style/style.css") # path to CSS file
 
 def interest(sel): # function to change text values of 'interests' column depending on dropdown selection
     title = st.title(sel + " interests:")  
